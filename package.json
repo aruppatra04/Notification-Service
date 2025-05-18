@@ -1,0 +1,25 @@
+{
+  "name": "notification-service",
+  "version": "1.0.1",
+  "description": "Notification system to send notifications to users in Email, SMS and in-app notifications.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "rabbitmq": "nodemon worker/consumer.js"
+  },
+  "author": "Arup Patra",
+  "license": "ISC",
+  "dependencies": {
+    "amqp-connection-manager": "^4.1.14",
+    "amqplib": "^0.10.8",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.15.0",
+    "nodemon": "^3.1.10"
+  }
+}
