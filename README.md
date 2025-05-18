@@ -34,8 +34,7 @@ Install and run the following:
 
 - **RabbitMQ**
   - [Download RabbitMQ](https://www.rabbitmq.com/download.html)
-  - [Installation Docs](https://www.rabbitmq.com/docs/installation)
-
+    
 ---
 
 ### 2. Clone the Repository
@@ -182,7 +181,6 @@ PORT=4001
 ## Project Structure
 
 ```
-.
 ├── config/
 │   └── dbconnection.js
 ├── controller/
